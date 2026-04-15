@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :where(button, a, input, textarea, select):focus-visible {
+        @apply outline-none ring-2 ring-violet-500 ring-offset-2 ring-offset-slate-700;
+    }
+}
+
+@layer components {
+    .card-inner {
+        @apply flex flex-col mx-2 py-4 px-3;
+    }
+    .card-outer {
+        @apply text-center  rounded-xl;
+    }
+    .seperator {
+        @apply border-2;
+    }
+    .btn {
+        @apply px-8 py-3 inline-block capitalize cursor-pointer border-2 border-violet-700 rounded-lg transition-all duration-300 hover:shadow-md hover:shadow-black/10 active:translate-y-1 active:shadow-none;
+    }
+    .btn-primary {
+        @apply bg-violet-700  hover:bg-violet-800;
+    }
+    .btn-secondary {
+        @apply hover:bg-violet-700;
+    }
+    .icon-16 {
+        @apply w-4 h-4;
+    }
+    .icon-32 {
+        @apply w-8 h-8;
+    }
+    .icon-with-text {
+        @apply flex flex-row gap-2 items-center;
+    }
+}
