@@ -23,4 +23,5 @@ A responsive email subscription card with image, text, and form input.
 ### Preview
 ![Subscribe Card preview-1](https://github.com/AhmedFawzi98/tailwind-mini-demos/blob/main/email-subscribe-card/Preview/preview-1.png) 
 ![Subscribe Card preview-2](https://github.com/AhmedFawzi98/tailwind-mini-demos/blob/main/email-subscribe-card/Preview/preview-2.png) 
+![Subscribe Card preview-3](https://github.com/AhmedFawzi98/tailwind-mini-demos/blob/main/email-subscribe-card/Preview/preview-3.png) 
 
