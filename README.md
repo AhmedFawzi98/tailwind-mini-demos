@@ -16,7 +16,7 @@ Each demo represents a single component with an emphasis on layout, responsivene
 
 ## Demos
 
-### 1-email-subscribe-card
+### 1- email-subscribe-card
 
 A responsive email subscription card with image, text, and form input.
 
