@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    :where(button, a, input, textarea, select):focus-visible {
+        @apply ring-2 ring-cyan-500 ring-offset-2 ring-offset-slate-900;
+    }
+}

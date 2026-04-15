@@ -4,9 +4,61 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./output.css" />
-        <title>Tailwind Starter</title>
+        <title>Email Subscribe Card</title>
     </head>
     <body>
-        <h1 class="text-red-800">some title</h1>
+        <div class="min-h-screen flex p-4 items-center bg-slate-200">
+            <article
+                class="max-w-80 md:container h-[36rem] md:h-64 mx-auto p-2 flex flex-col gap-2 md:flex-row text-center bg-slate-900 rounded-xl overflow-hidden shadow-md shadow-black/40"
+            >
+                <div
+                    class="flex-1 basis-[40%] min-h-0 md:basis-1/4 bg-slate-950 rounded-t-xl md:rounded-l-xl md:rounded-r-none overflow-hidden"
+                >
+                    <img
+                        src="./img/swe-newsletter.png"
+                        alt="Software engineering newsletter logo"
+                        class="w-full h-full object-center transition-transform duration-300 hover:scale-105"
+                    />
+                </div>
+
+                <div
+                    class="flex-1 basis-[60%] min-h-0 md:basis-3/4 p-4 lg:px-2"
+                >
+                    <h3
+                        class="mb-4 font-bold text-lg text-cyan-400 tracking-wide lg:text-2xl xl:text-3xl"
+                    >
+                        Get software engineering updates and news in your inbox
+                    </h3>
+
+                    <p
+                        class="mb-10 md:mb-10 text-sm text-slate-300 leading-relaxed lg:text-lg xl:text-xl"
+                    >
+                        Be a better software engineer, always stay updated with
+                        new technologies! Sign up for SWE&nbsp;newsletter
+                    </p>
+
+                    <form>
+                        <div
+                            class="flex flex-col md:flex-row gap-4 text-l lg:text-xl"
+                        >
+                            <input
+                                type="email"
+                                name="email"
+                                autocomplete="email"
+                                placeholder="Enter your email address"
+                                class="p-2 basis-2/3 bg-slate-800 border border-slate-600 text-slate-100 text-center placeholder:text-slate-400 rounded-md"
+                            />
+
+                            <button
+                                type="submit"
+                                class="basis-1/3 p-2 font-bold bg-cyan-500 text-white rounded-md transition-all duration-300 hover:bg-cyan-600 hover:translate-y-0.5"
+                            >
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
     </body>
 </html>
