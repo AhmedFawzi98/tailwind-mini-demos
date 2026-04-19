@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Rokkitt:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./output.css" />
+        <title>Login Modal</title>
+    </head>
+    <body>
+        <!--Global Container-->
+        <div class="min-h-screen flex items-center justify-center bg-blue-50">
+            <!--Modal-->
+            <!--Modal-->
+            <div
+                role="dialog"
+                aria-modal="true"
+                aria-label="login info"
+                class="container flex flex-col md:flex-row m-6 max-w-md md:max-w-4xl md:h-[40rem] lg:h-[36rem] bg-white rounded-2xl shadow-xl shadow-black/20"
+            >
+                <!--content-->
+                <div
+                    class="p-6 md:p-10 md:flex-1 md:basis-1/2 lg:basis-[60%] font-sans"
+                >
+                    <h2 class="mb-4 text-3xl font-mono font-bold capitalize">
+                        log in
+                    </h2>
+                    <p class="max-w-sm mb-10 text-sm text-gray-400">
+                        Log in to your account and start surfing an awesome
+                        website for nature and environment care.
+                    </p>
+                    <form class="grid grid-cols-1 lg:grid-cols-2 gap-3 mb-8">
+                        <div class="form-group">
+                            <label for="email" class="text-sm text-gray-400"
+                                >email</label
+                            >
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                autocomplete="email"
+                                placeholder="enter your email address"
+                                class="form-control w-full"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="text-sm text-gray-400"
+                                >Password</label
+                            >
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                autocomplete="current-password"
+                                placeholder="enter your password"
+                                class="form-control w-full"
+                            />
+                        </div>
+                        <div
+                            class="text-center lg:col-span-2 lg:justify-self-center"
+                        >
+                            <a href="#" class="text-cyan-700"
+                                >Forgot password?</a
+                            >
+                        </div>
+                        <button
+                            type="submit"
+                            class="btn btn-primary mt-8 text-xl text-white lg:col-span-2 lg:justify-self-center lg:px-24"
+                        >
+                            Log in
+                        </button>
+                    </form>
+                    <div class="seperator"></div>
+                    <p class="mb-4 text-center text-sm text-gray-400">
+                        Or log in with
+                    </p>
+                    <div
+                        class="flex flex-col justify-center items-stretch md:flex-row gap-2"
+                    >
+                        <button class="p-2 img-with-text border-2">
+                            <img
+                                src="./img/facebook.png"
+                                alt="facebook logo"
+                                class="img-icon-24"
+                            />
+                            <span>Facebook</span>
+                        </button>
+                        <button class="p-2 img-with-text border-2">
+                            <img
+                                src="./img/google.png"
+                                alt="google logo"
+                                class="img-icon-24"
+                            />
+                            <span>Google</span>
+                        </button>
+                    </div>
+                </div>
+                <!--image-->
+                <div
+                    class="hidden md:block md:flex-1 md:basis-1/2 lg:basis-[40%] rounded-r-2xl overflow-hidden"
+                >
+                    <img
+                        src="./img/login-image.jpg"
+                        alt="an image of a nature scene"
+                        class="w-full h-full object-cover object-center"
+                    />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

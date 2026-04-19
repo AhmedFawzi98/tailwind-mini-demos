@@ -1,0 +1,12 @@
+{
+    "name": "simple-tailwind-starter",
+    "version": "1.0.0",
+    "author": "Ahmed Fawzi",
+    "scripts": {
+        "tailwindbuild": "tailwindcss -i ./general.css -o ./output.css",
+        "tailwinddev": "tailwindcss -i ./general.css -o ./output.css --watch"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.19"
+    }
+}

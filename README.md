@@ -50,3 +50,10 @@ A Responsive image gallery with navigation bar, search/upload controls, and hove
 
 ![Pricing Grid Preview](https://github.com/AhmedFawzi98/tailwind-mini-demos/blob/main/image-gallery/preview/preview.jpeg)
 
+### 5- login-modal
+
+A Responsive stylish login modal with split layout, form inputs, and social login options.
+
+### Preview
+
+![Pricing Grid Preview](https://github.com/AhmedFawzi98/tailwind-mini-demos/blob/main/login-modal/preview/preview.jpeg)
