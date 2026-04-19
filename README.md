@@ -41,3 +41,12 @@ A Responsive product modal showcasing item details, pricing, and actions
 ### Preview
 
 ![Pricing Grid Preview](https://github.com/AhmedFawzi98/tailwind-mini-demos/blob/main/product-modal/preview/preview.jpeg)
+
+### 4- image-gallery
+
+A Responsive image gallery with navigation bar, search/upload controls, and hover interactions for enhanced browsing experience.
+
+### Preview
+
+![Pricing Grid Preview](https://github.com/AhmedFawzi98/tailwind-mini-demos/blob/main/image-gallery/preview/preview.jpeg)
+
