@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .tags {
+        @apply flex flex-row flex-wrap gap-2;
+    }
+    .tag {
+        @apply px-3 py-2 max-w-fit rounded-3xl capitalize;
+    }
+    .old-price {
+        @apply decoration-1 line-through;
+    }
+    .btn {
+        @apply px-4 py-3 inline-block text-center font-bold capitalize cursor-pointer border-2 border-blue-700 rounded-lg transition-all duration-300 hover:shadow-md hover:shadow-black/10 active:shadow-none;
+    }
+    .btn-primary {
+        @apply bg-blue-700  hover:bg-blue-800;
+    }
+    .btn-secondary {
+        @apply hover:bg-blue-700 hover:text-white;
+    }
+    .icon-16 {
+        @apply w-4 h-4;
+    }
+    .icon-32 {
+        @apply w-8 h-8;
+    }
+    .icon-with-text {
+        @apply flex flex-row gap-2 items-center justify-center;
+    }
+}
